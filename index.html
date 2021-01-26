@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Thomann</title>
+  <!--Стартовые стили-->
+  <link rel="stylesheet" href="css/starter.css">
+  <!--Мои стили-->
+  <link rel="stylesheet" href="css/style.css"> 
+  <!--Иконки-->
+  <script src="https://kit.fontawesome.com/3bf8556f35.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+	<!--Шапка-->
+	<header class="mainheader">
+		<div class="container">
+	
+			<img src="img/logo.png">
+	
+			<nav class="mainnav">
+				<ul>
+					<li><a href="#popular">Популярные товары</a></li>
+					<li><a href="#company">О компании</a></li>
+					<li><a href="#form">Оставить заявку</a></li>
+					<li><a href="#recomendations">Рекомендации</a></li> 
+					<li class="cart-num"><img src="img/cart16.png" class="cart1"><a id="count"></a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!--КОНЕЦ Шапка-->
+
+  <main>
+    <div class="container">
+     
+      <!--НАЧАЛО Секция "Серии наборов"-->
+      <section id="popular">
+        <h2>Популярные наборы</h2>
+        <div class="carousel">
+			<div class="kit_slides_wrapper">
+			
+				<!-- НАЧАЛО Слайд №4 - клон-->
+				<div class="kit_slide" id="lastClone">
+					<img src="img/goods/steinberg-ur22c.jpg">
+					<div class="info">
+						<h3>Steinberg UR22C</h3>
+						<p>
+							UR22C - это аудиоинтерфейс USB 3.0 с соединением USB Type C с двумя входами, двумя выходами и
+							MIDI-соединением. Запись с
+							разрешением 32 бит / 192 кГц и аппаратный
+							мониторинг без задержки с эффектами на базе DSP от Yamaha.
+						</p>
+					</div>
+				</div>
+				<!-- КОНЕЦ Слайд №4 - клон-->
+			
+				<!-- НАЧАЛО Слайд №1-->
+				<div class="kit_slide">
+					<img src="img/goods/tele.png">
+					<div class="info">
+						<h3>SQUIER BY FENDER Telecaster MN Orange</h3>
+						<p>
+							FENDER SQUIER AFFINITY TELECASTER MN – это легенда, которая сегодня стала доступной каждому музыканту,
+							желающему стать
+							звездой!
+						</p>
+					</div>
+				</div>
+				<!-- КОНЕЦ Слайд №1-->
+			
+				<!-- НАЧАЛО Слайд №2-->
+				<div class="kit_slide">
+					<img src="img/goods/trbx174.jpg" style="width: 270px;">
+					<div class="info">
+						<h3>YAMAHA TRBX174 BLACK</h3>
+						<p>
+							В истинно лучшей бас-гитаре важно все – звук, удобство, внешний вид. С уникальным сочетанием передового
+							дизайна, точной
+							механики и наработок признанных специалистов, команда производителей Yamaha разработали и запустили в
+							производство
+							уникальную серию бас-гитар, к которым недопустимо слово «компромисс».
+						</p>
+					</div>
+				</div>
+				<!-- КОНЕЦ Слайд №2-->
+			
+				<!-- НАЧАЛО Слайд №3-->
+				<div class="kit_slide">
+					<img src="img/goods/fender-mustang-lt25.jpg" style="width: 270px;">
+					<div class="info">
+						<h3>FENDER MUSTANG LT25</h3>
+						<p>
+							FENDER MUSTANG LT 25 230V EU - это комбоусилитель для электрогитары, дополненный готовыми пресетами
+							звучания "на все
+							случаи жизни". Музыкантам доступно 50 заводских и 30 пользовательских банков пресетов. Таким образом
+							гитаристы могут
+							подобрать готовое звучание электрогитары для разных стилей, или же сохранить свои созданные настройки с
+							возможностью их
+							быстрой загрузки.
+						</p>
+					</div>
+				</div>
+				<!-- КОНЕЦ Слайд №3-->
+			
+				<!-- НАЧАЛО Слайд №4-->
+				<div class="kit_slide">
+					<img src="img/goods/steinberg-ur22c.jpg">
+					<div class="info">
+						<h3>Steinberg UR22C</h3>
+						<p>
+							UR22C - это аудиоинтерфейс USB 3.0 с соединением USB Type C с двумя входами, двумя выходами и
+							MIDI-соединением. Запись с
+							разрешением 32 бит / 192 кГц и аппаратный
+							мониторинг без задержки с эффектами на базе DSP от Yamaha.
+						</p>
+					</div>
+				</div>
+				<!-- КОНЕЦ Слайд №4-->
+			
+				<!-- НАЧАЛО Слайд №1 - клон-->
+				<div class="kit_slide" id="firstClone">
+					<img src="img/goods/tele.png">
+					<div class="info">
+						<h3>SQUIER BY FENDER Telecaster MN Orange</h3>
+						<p>
+							FENDER SQUIER AFFINITY TELECASTER MN – это легенда, которая сегодня стала доступной каждому музыканту,
+							желающему стать
+							звездой!
+						</p>
+					</div>
+				</div>
+				<!-- КОНЕЦ Слайд №1 - клон-->
+			</div>
+		</div>
+
+			<!--НАЧАЛО Обертка для слайдов-->
+			
+		<i class="fas fa-arrow-left" id="prev"></i>
+		<i class="fas fa-arrow-right" id="next"></i>
+       
+        <!--КОНЕЦ Обертка для слайдов-->
+      </section>
+      <!--КОНЕЦ Секция "Серии наборов"-->
+      
+      
+      
+      <!--НАЧАЛО Секция "О компании"-->
+      <section id="company">
+      	<h2>О компании</h2>
+      	
+      	<p>
+      		<strong>Thomann</strong> 
+      	</p>
+      	<p>
+			Musikhaus Thomann является немецким розничным продавцом музыкальных инструментов, студийного, светового и
+			проаудиооборудования. Thomann стал широко известен в первую очередь благодаря своей крупной розничной онлайн-торговле
+			Thomann Cyberstore. Согласно данным 2014 года Thomann является крупнейшим интернет-магазином своей категории товаров во всем мире.
+			Ханс Томанн-старший основал компанию шестьдесят семь лет назад (в 1954 году) как семейное предприятие в Треппендорфе, где сегодня находится штаб-квартира Musikhaus Thomann. 
+			И по сей день компания все еще принадлежит семье.
+      	</p>
+      </section>
+      <!--КОНЕЦ Секция "О компании"-->
+      
+      
+      
+      <!--НАЧАЛО Секция "Оставить заявку"-->
+      <section id="form">
+      	<h2>Оставить заявку</h2>
+      	
+      	<!--НАЧАЛО Обертка/флекс-контейнер-->
+      	<div class="order-wrapper">
+      	  <!--НАЧАЛО Левая часть с полями для ввода-->
+      		<div class="order-form">
+      			<!--Имя-->
+      			<label for="firstname_field">Имя</label>
+      			<input type="text" id="firstname_field"> 
+      			<!--Фамилия-->
+      			<label for="lastname_field">Фамилия</label>
+      			<input type="text" id="lastname_field">
+      			<!--Номер телефона-->     	
+      			<label for="phone_field">Телефон</label>
+      			<input type="text" id="phone_field">
+      			<button class="sent">Отправить</button>
+      		</div>
+      	  <!--КОНЕЦ Левая часть с полями для ввода-->
+      	  
+      	  <!--НАЧАЛО Правая часть с сообщением-->
+      		<div class="order-alert visible">
+      			<p>
+      				<strong>Уважаемый, Иванов Н.</strong><br>
+      				Наши специалисты уже получили Вашу заявку и свяжутся с Вами в ближайшее время по телефону <strong><nobr>8 999 123 45 67</nobr></strong><br>
+      				Спасибо за обращение! 
+      			</p>
+      		</div>      	  
+      		<!--КОНЕЦ Правая часть с сообщением-->
+      	</div>
+      	<!--КОНЕЦ Обертка/флекс-контейнер-->
+      </section>
+      <!--КОНЕЦ Секция "Оставить заявку"-->
+      
+      
+      
+      <!--НАЧАЛО Секция "Рекомендации"-->
+      <section class="section-last" id="recomendations">
+      	<h2>Рекомендации</h2>
+      	
+      	<!--НАЧАЛО Обертка/флекс-контейнер для товаров-->
+      	<div class="goods-wrapper">
+      	
+      		<!--НАЧАЛО Товар №1-->
+      		<div class="product">
+      			<img src="img/goods/tele.png">
+      			<h4>SQUIER Telecaster</h4>
+      			<button onclick="countClicks()"><img src="img/cart16.png"></button>
+      		</div>
+      		<!--КОНЕЦ Товар №1-->
+      		<!--НАЧАЛО Товар №2-->
+      		<div class="product">
+      			<img src="img/goods/fender-mustang-lt25.jpg">
+      			<h4>FENDER Mustang</h4>
+      			<button onclick="countClicks()"><img src="img/cart16.png"></button>
+      		</div>
+      		<!--КОНЕЦ Товар №2-->
+      		<!--НАЧАЛО Товар №3-->   
+      		<div class="product">
+      			<img src="img/goods/steinberg-ur22c.jpg">
+      			<h4>UR22C</h4>
+      			<button onclick="countClicks()"><img src="img/cart16.png"></button>
+      		</div>
+      		<!--КОНЕЦ Товар №3-->
+      		
+      		<!--НАЧАЛО Товар №4-->
+      		<div class="product">
+      			<img src="img/goods/yamaha-silent-guitar.jpg">
+      			<h4>Yamaha Silent</h4>
+      			<button onclick="countClicks()"><img src="img/cart16.png"></button>
+      		</div>
+      		<!--КОНЕЦ Товар №4-->
+      		<!--НАЧАЛО Товар №5-->
+      		<div class="product">
+      			<img src="img/goods/trbx174.jpg">
+      			<h4>Yamaha TRBX-174</h4>
+      			<button onclick="countClicks()"><img src="img/cart16.png"></button>
+      		</div>
+      		<!--КОНЕЦ Товар №5-->
+      		<!--НАЧАЛО Товар №6-->
+      		<div class="product">
+      			<img src="img/goods/flight.jpg">
+      			<h4>Flight Victoria</h4>
+      			<button onclick="countClicks()"><img src="img/cart16.png"></button>
+      		</div>
+			  <!--КОНЕЦ Товар №6-->
+			<!--НАЧАЛО Товар №7-->
+			<div class="product">
+				<img src="img/goods/les.jpg" style="width: 210px">
+				<h4>GIBSON Les Paul </h4>
+				<button onclick="countClicks()"><img src="img/cart16.png"></button>
+			</div>
+			<!--КОНЕЦ Товар №7-->
+			<!--НАЧАЛО Товар №8-->
+			<div class="product">
+				<img src="img/goods/strings.jpg">
+				<h4>Струны DR Bass</h4>
+				<button onclick="countClicks()"><img src="img/cart16.png"></button>
+			</div>
+			<!--КОНЕЦ Товар №8-->
+			<!--НАЧАЛО Товар №9-->
+			<div class="product">
+				<img src="img/goods/sinth.jpg">
+				<h4>PIONEER Toraiz</h4>
+				<button onclick="countClicks()"><img src="img/cart16.png"></button>
+			</div>
+			<!--КОНЕЦ Товар №9-->
+      	</div>
+      	<!--КОНЕЦ Обертка/флекс-контейнер для товаров-->
+      </section>
+	  <!--КОНЕЦ Секция "Рекомендации"-->
+	  <div class="more-container">
+		<button class="more">ЕЩЁ</button>
+	  </div>
+      
+	</div>
+
+	<footer class="footer-container">
+		<div class="footer-div">
+			<ul class="item">
+				<li class="soc-item vk">
+					<i class="fa fa-vk"></i>
+				</li>
+				<li class="soc-item instagram">
+					<i class="fa fa-instagram"></i>
+				</li>
+				<li class="soc-item facebook">
+					<i class="fa fa-facebook"></i>
+				</li>
+				<li class="soc-item twitter">
+					<i class="fa fa-twitter"></i>
+				</li>
+			</ul>
+		</div>
+	</footer>
+  </main>
+
+<!--Кнопка вверх-->
+<a href="#" class="arrow-cont">
+	<i class="fas fa-angle-up"></i>
+</a>
+<!--КОНЕЦ Кнопка вверх-->
+
+<!--Прокрутка-->
+<div class="progress"></div>
+<!-- КОНЕЦ Прокрутка-->
+
+<script src="script.js"></script>
+
+</body>
+</html>    
